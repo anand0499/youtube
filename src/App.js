@@ -14,9 +14,11 @@ function App() {
     <div className="app">
       <Router>
         <Header />
+        {/* <Sidebar />
+        <RecomendedVedio /> */}
 
         <Routes>
-          <Route className="app-page" exact path="/" element={<First />} />
+          <Route className="app-page"  path="/youtube_clone" element={<First />} />
           <Route
             className="app-page"
             path="/search/:searchTerm"

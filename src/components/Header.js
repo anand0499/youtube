@@ -15,7 +15,7 @@ function Header() {
       {/* <h1>I am a headers</h1> */}
       <div className="header-left">
         <MenuIcon />
-        <Link to="/">
+        <Link to="/youtube_clone">
           <img
             alt=""
             className="header-logo"
@@ -36,11 +36,12 @@ function Header() {
         {/* <SearchIcon className="header-input-btn" /> */}
       </div>
       <div className="header-icons">
+      <div className="icons">
         <VideoCallSharpIcon className="header-icon" />
         <AppsIcon className="header-icon" />
         <NotificationsIcon className="header-icon" />
-
-        <Avatar
+</div>
+        <Avatar className="avatar"
           alt="Anand choubey"
           src="https://scontent.fccu7-1.fna.fbcdn.net/v/t1.6435-9/c0.76.740.740a/s851x315/67833425_1085965758459068_4799473838423277568_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=da31f3&_nc_ohc=Ybky1yQzF0kAX-QOloE&tn=naMwjpli_nlIG2f7&_nc_ht=scontent.fccu7-1.fna&oh=d5dbc5d53365d0b84c1a473114897f49&oe=61CC890F"
         />

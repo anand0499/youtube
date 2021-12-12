@@ -1,6 +1,6 @@
 .header {
   display: flex;
-  flex-direction: row;
+  /* flex-direction: row; */
   justify-content: space-between;
   align-items: center;
   padding: 20px;
@@ -22,7 +22,7 @@
   width: 40%;
   border: 1px solid lightgray;
 }
-.header-icon {
+.header-icon {  
   margin-right: 5px;
 }
 
@@ -42,3 +42,9 @@
   flex: 1;
   border: none;
 }
+
+@media (max-width: 450px) {
+
+  .header-icons { display: none;}
+}
+  
