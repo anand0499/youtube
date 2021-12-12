@@ -16,6 +16,7 @@ function App() {
         <Header />
 
         <Routes>
+          <Route className="app-page" exact path="/" element={<First />} />
           <Route
             className="app-page"
             path="/search/:searchTerm"
@@ -23,8 +24,6 @@ function App() {
           />
           {/* <Header/> */}
           {/* <Route   path="/" element={<Header/>}/> */}
-
-          <Route className="app-page" path="/" element={<First />} />
 
           {/* <Route className="app-page" path="/" element={<Sidebar />} />
           <Route
